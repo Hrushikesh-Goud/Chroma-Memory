@@ -1,0 +1,96 @@
+body{
+    text-align: center;
+    background-color:darkcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2rem;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line-one, .line-two {
+    display: flex;
+    justify-content: center;
+}
+
+.rules-button-container{
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+    color: #333;
+}
+.yellow{
+    background-color: yellow;
+}
+
+.red
+{
+    background-color: red;
+}
+.purple
+{
+    background-color: purple;
+}
+
+.green{
+background-color: green;
+}
+
+.flash{
+    background-color:#f5f5f572;
+}
+
+.userflash{
+    background-color: black;
+}
+
+h1{
+    color :black;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .btn {
+        margin: 5px;
+        padding: 15px;
+        font-size: 20px;
+        max-width: 80px;
+        max-height: 80px;
+    }
+
+    h1, h2 {
+        font-size: 1.5em;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
