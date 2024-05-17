@@ -15,6 +15,14 @@ document.addEventListener("keypress", function(){
     }
 });
 
+document.addEventListener("touchstart", function() {
+    if (!started) {
+        console.log("Game has started");
+        started = true;
+        levelup();
+    }
+});
+
 
  function gameflash(btn){
     btn.classList.add("flash");
@@ -84,3 +92,4 @@ btn.addEventListener("click",btnpress);
     level=0;
 
  }
+ 
